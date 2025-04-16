@@ -37,3 +37,78 @@
     margin-left: 30px;
     font-weight: 700;
   }
+  /* recent transaction */
+  .RecentTransaction {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow-x: auto;
+  }
+  
+  /* Desktop Table */
+  .desktop-table .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+  }
+  
+  .styled-table thead th {
+    background-color: #3f51b5;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .styled-table .right {
+    text-align: right;
+  }
+  
+  .styled-table .center {
+    text-align: center;
+  }
+  
+  /* Mobile Card Layout */
+  .mobile-cards {
+    display: none;
+  }
+  
+  /* Responsive Mode */
+  @media (max-width: 768px) {
+    .desktop-table {
+      display: none;
+    }
+  
+    .mobile-cards {
+      display: block;
+    }
+  
+    .mobile-row {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background-color: #f9f9f9;
+    }
+  
+    .mobile-row p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+  }
+  

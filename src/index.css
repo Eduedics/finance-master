@@ -20,3 +20,20 @@
   .header p{
     color: rgb(44, 44, 68);
   }
+  .balance{
+    background: green;
+    max-width: max-content;
+    padding: 10px 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .balance p{
+    color: aliceblue;
+    font-size: larger;
+  }
+  .balance p span{
+    color: black;
+    margin-left: 30px;
+    font-weight: 700;
+  }
